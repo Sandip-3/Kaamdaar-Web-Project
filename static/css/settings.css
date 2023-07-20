@@ -1,0 +1,88 @@
+:root
+{
+    --checkbox-scale: 1.5;
+}
+
+.settings-container
+{
+    width: 100%;
+    margin: 10px 0 0 30px;
+}
+
+.settings-category
+{
+    width: 50%;
+    margin-top: 20px;
+}
+
+.category-title
+{
+    border-bottom: 1px solid #EDEFF1;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.category-title p
+{
+    font-size: 12px;
+    font-family: Roboto;
+    font-weight: 600;
+    color: #4d4c4c;
+}
+
+.setting 
+{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 80% 20%;
+}
+
+.setting-text
+{
+    margin-right: 10px;
+}
+
+.setting-title p
+{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.setting-description p 
+{
+    font-size: 14px;
+    color: #7c7c7c;
+    margin-top: 5px;
+    font-weight: 300;
+}
+
+.setting-action input[type=checkbox]
+{
+    position: relative;
+    top: 50%;
+    -ms-transform: scale(var(--checkbox-scale)) translateY(-50%);
+    -moz-transform: scale(var(--checkbox-scale)) translateY(-50%);
+    -webkit-transform: scale(var(--checkbox-scale)) translateY(-50%);
+    -o-transform: scale(var(--checkbox-scale)) translateY(-50%);
+    transform: scale(var(--checkbox-scale)) translateY(-50%);
+}
+
+.delete-acnt-btn 
+{
+    position: relative;
+    top: 50%;
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: red;
+    border: none;
+    background-color: white;    
+    cursor: pointer;
+    font-size: 16px;
+    transition: color 0.15s;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Can't access page</title>
+
+    <style>
+        * 
+        {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body 
+        {
+            font-family: Helvetica, Arial, sans-serif;
+        }
+
+        .container
+        {
+            margin-top: 25%;
+            margin-left: 100px;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .error-icon
+        {
+            margin-left: 100px;
+        }
+
+        .error-img
+        {
+            --icon-width: 200px;
+            --icon-height: 200px;
+            width: var(--icon-width);
+            height: var(--icon-height);
+            transform: translateY(-50px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="error-msg">
+            <h1>
+                Can't access this page
+            </h1>
+            <h3>
+                Access to this page has been blocked.
+            </h3>
+            <p>Error: Not authorized</p>
+        </div>
+        <div class="error-icon">
+            <img class="error-img" src="./error/broken-link.png" alt="Error image">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,174 @@
+* 
+{
+    box-sizing: border-box;
+}
+
+:root
+{
+    --app-body-bg-color: #DAE0E6;
+    --app-line-color: #939393;
+    --app-radius-round: 50%;
+    --app-basic-border-radius: 8px;
+    --app-basic-box-shadow: 0 1px 2px rgba(0, 0, 0, .1), 0 2px 4px rgba(0, 0, 0, .1);
+    --app-theme-color: rgb(255, 185, 70);
+}
+
+.req-list-container
+{
+    padding: 10px;
+}
+
+.req-list {
+    list-style-type: none;
+}
+
+.req-list-item {
+    width: inherit;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.rli-root {
+    box-shadow: var(--app-basic-box-shadow);
+    padding: 10px 5px 20px 5px;
+}
+
+.rli-head {
+    font-family: Roboto, Arial;
+    font-weight: 400;
+    font-size: 25px;
+    width: 100%;
+    padding: 10px;
+    float: left;
+}
+
+.request-icon
+{
+    width: 40px;
+    height: 40px;
+}
+
+.td-icon {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.act-btns 
+{
+    float: right;
+}
+
+.view-on-map-btn
+{
+    width: 140px;
+    height: 30px;
+    font-size: 0.7em;
+}
+
+.u-lvl
+{
+    font-size: 15px;
+    color: red;
+}
+
+.req-info
+{
+    margin-left: 45px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.rfloat
+{
+    float: right;
+}
+
+.delete-request-modal
+{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 1001;
+}
+
+.delete-request-modal--content
+{
+    background-color: #FFFFFF;
+    padding: 20px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.delete-request-modal--msg
+{
+    padding: 5px;
+    border-bottom: 0.02em solid #939393;
+}
+
+.delete-request-modal--acts
+{
+    margin-top: 10px;
+}
+
+.delete-request-modal--button
+{
+    background-color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-request-modal--cancel
+{
+    margin-right: 1em;
+}
+
+.delete-request-modal--ok
+{
+    color: rgb(255, 185, 70);
+}
+
+.request-options-container
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.request-options
+{
+    background-color: #FFFFFF;
+    width: 200px;
+    min-height: 40px;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1), 0 2px 4px rgba(0, 0, 0, .1);
+}
+
+.ro-item 
+{
+    padding-left: 8px;
+    border-bottom: 0.02em solid #bab8b8;
+    vertical-align: middle;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.ro-item:last-child
+{
+    border-bottom: none;
+}
+
+.ro-item:hover 
+{
+    background-color: #e3e2e2;
+}

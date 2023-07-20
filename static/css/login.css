@@ -1,0 +1,134 @@
+*
+{
+    font-family: Helvetica;
+}
+ 
+.container
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: #ffff;
+    width: 420px;
+    min-height: 460px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 9px rgb(184, 184, 184), -1px -1px 5px rgb(184, 184, 184);
+}
+
+div h1 
+{
+    text-align: center;
+}
+
+#login-btn
+{
+    margin: 10px 10px 10px 10px;
+    padding: 15px;
+    width: 95%;
+    border-radius: 5px;
+    background-color: rgb(255, 185,70);
+    color: #000;
+    font-size: 20px;
+    border: none;
+}
+
+.remember-me
+{
+    position: relative;
+    left: 10px;
+}
+
+.user-phone, .user-pass
+{
+    margin: 0 10px 10px 10px;
+    padding: 20px;
+    width: 85%;
+    background-color: white;
+    outline: none;
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 5px;
+    font-size: 15px;      
+}
+
+.create-acnt
+{
+    text-align: center;
+    margin: 5px 0 20px 95px;
+    width: 50%;
+    text-decoration: none;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.create-acnt-btn
+{
+    text-decoration: none;
+    background: none;
+    color: #000;
+    font-size: 17px;
+}
+
+.acnt-recover
+{
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+          
+.error
+{
+    display: block;
+    text-align: center;
+    color: red;
+    font-family: sans-serif;
+    margin: 0 0 20px 10px;
+}
+
+#rm
+{
+    padding: 0 10px 10px 10px;
+}        
+
+#login_failed 
+{
+    text-align: center;
+    color: red;
+}
+
+form p 
+{
+    display:inline-block ;
+    position:relative ;
+    left: 23px;
+    padding: 2px;
+}
+
+form a 
+{
+    text-decoration: none;
+}
+
+a:hover 
+{
+    text-decoration: underline;
+}
+
+.redirected-msg
+{
+    font-size: 1em;
+    font-weight: 400;
+    text-align: start;
+    display: inline-block;
+    color: black;
+    width: 420px;
+    height: 40px;
+    position: absolute;
+    margin: 10px 10px 5px 5px;
+    padding-left: 5px;
+    border: 1px solid rgb(255, 185,70);
+    border-radius: 4px;
+    line-height: 40px;
+}

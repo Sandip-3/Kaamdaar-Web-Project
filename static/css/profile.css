@@ -1,0 +1,138 @@
+:root
+{
+    --app-body-bg-color: #DAE0E6;
+    --app-line-color: #939393;
+    --app-radius-round: 50%;
+    --app-basic-border-radius: 8px;
+    --app-basic-box-shadow: 0 1px 2px rgba(0, 0, 0, .1), 0 2px 4px rgba(0, 0, 0, .1);;
+}
+
+.pdiv
+{
+    box-shadow: var(--app-basic-box-shadow);
+}
+
+.profile-top 
+{
+    height: 400px;
+}
+
+.pt-1 
+{
+    width: 100%;
+    height: 250px;
+    background-image: url("../images/box-texture.jpeg");
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+}
+
+.pt-2 
+{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.pt-2-1
+{
+    margin: 10px 0 0 20px;
+}
+
+.profile-pic
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transform: translateY(-100px);
+}
+
+.profile-edit-btn
+{
+    width: 200px;
+    height: 30px;
+    font-size: 1em;
+    margin-top: 5px;
+    background-color: rgb(255, 185, 70);
+    color: black;
+    transition: color 0.15s;
+    border: none;
+}
+
+.profile-middle
+{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.profile-stat, .profile-about, .profile-map, .profile-recent-activity
+{
+    background-color: rgb(250, 250, 250);
+    padding: 5px 10px 5px 10px;
+    border-radius: var(--app-basic-border-radius);
+    margin: 10px;
+}
+
+.profile-stat 
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-stat div 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.profile-stat-item
+{
+    text-align: center;
+}
+
+.profile-about
+{
+    margin: 10px;
+}
+
+.profile-bottom
+{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.pra-list
+{
+    list-style-type: none;
+    overflow: scroll;
+    width: 100%;
+}
+
+.pra-li-root
+{
+    padding: 8px;
+    border-radius: var(--app-basic-border-radius);
+    background-color: #FFFFFF;
+    box-shadow: var(--app-basic-box-shadow);
+}
+
+.pra-li-top
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.pra-li-top span 
+{
+    font-size: 25px;
+}
+
+.map 
+{
+    margin-top: 5px;
+    width: 500px;
+    height: 500px;
+    border-radius: 1em;
+}

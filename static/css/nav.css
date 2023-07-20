@@ -1,0 +1,70 @@
+.nav-bar {
+    background-color: white;
+    transition: width 0.15s;
+    padding-right: 20px;
+}
+
+.nav-bar a 
+{
+    padding: 16px 8px 8px 0px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: block;
+}
+
+.nav-bar a:hover 
+{
+    color: blue;
+}
+
+.nav-link-active
+{
+    color: blue;
+    background-color: #E1EDFF;
+    display: block;
+    height: 40px;
+    border-radius: 0 8px 8px 0;
+    margin-left: 0px;
+    transform: translateX(-20px);
+    padding: 10px 0 0 20px;
+}
+
+.page-head 
+{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.page-head h2 {
+    display: inline-block;
+}
+
+.search-bar {
+    display: inline-block;
+    width: 50%;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.page-body {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.pc-title {
+    margin: 10px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pc-title > div {
+    display: inline-block;
+}
